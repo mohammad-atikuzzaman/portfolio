@@ -1,10 +1,11 @@
-import { FaEnvelope, FaGit, FaGithub, FaMobile } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaMobile } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
+import Contact from "./Contact";
 
 const About = () => {
   return (
     <div className="p-8 bg-orange-50 m-8 rounded-xl ">
-      <h2 className="text-4xl font-semibold p-4">About Me__</h2>
+      <h2 className="text-4xl font-semibold p-4">Connect with Me__</h2>
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div>
           <img
@@ -55,6 +56,10 @@ const About = () => {
                   </a>
                 </div>
               </div>
+            </div>
+            <div>
+              <h2 className="font-bold text-3xl mt-6">Send a Mail</h2>
+              <Contact></Contact>
             </div>
           </div>
         </div>
