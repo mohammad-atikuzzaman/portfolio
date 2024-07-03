@@ -23,7 +23,16 @@ const NavBar = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
               }>
-              Contacts
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to={"/contact"}
+              className={({ isActive }) =>
+                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+              }>
+              Contact
             </NavLink>
           </li>
           <li>
