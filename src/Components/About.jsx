@@ -1,13 +1,11 @@
-import { FaEnvelope, FaGithub, FaMobile } from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa6";
-import Contact from "./Contact";
+
 import Education from "./Education";
 
 const About = () => {
   return (
     <div className="p-8 bg-orange-50 m-8 rounded-xl ">
       <h2 className="text-4xl font-semibold p-4">About Me__</h2>
-      <div className="flex flex-col md:flex-row justify-between ">
+      <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between ">
         <div>
           <div>
             <img
