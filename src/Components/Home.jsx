@@ -1,9 +1,10 @@
 import { Typewriter } from "react-simple-typewriter";
+import "./profile.css"
 const Home = () => {
   return (
-    <div className="h-[calc(100vh-130px)]">
-      <div className="flex justify-between  items-center my-auto p-8">
-        <div className="max-w-[60%] space-y-2">
+    <div className="min-h-[calc(100vh-130px)] flex items-center justify-center">
+      <div className="flex flex-col-reverse md:flex-row justify-between  items-center my-auto p-8">
+        <div className="text-center mt-7 md:text-left md:max-w-[60%] space-y-2 ">
           <h2 className="font-bold text-2xl md:text-4xl">
             Hello, I'm Atikuzzaman
           </h2>
@@ -37,12 +38,9 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-full shadow-lg shadow-orange-400  hover:bg-orange-100 transition-all">
-          <img
-            src="https://i.ibb.co/9Yb4GmQ/IMG-20240219-094gjg258-removebg-preview.png"
-            alt="image of aitkuzzaman"
-            className="rounded-full border-2 border-[#9e6d52] "
-          />
+
+        <div className=" profile ">
+        <img src="./profile.png" alt="akash" />
         </div>
       </div>
     </div>

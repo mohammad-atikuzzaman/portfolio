@@ -2,11 +2,11 @@
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-2 bg-neutral text-neutral-content">
+    <footer className="flex justify-between items-center p-2 bg-neutral text-neutral-content">
       <aside className="items-center grid-flow-col">
         <p>Copyright © 2024 - All right reserved</p>
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <nav className="flex gap-4">
         <a>
           <svg
             xmlns="http://www.w3.org/2000/svg"

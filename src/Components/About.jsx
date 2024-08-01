@@ -6,15 +6,13 @@ const About = () => {
     <div className="p-8 bg-orange-50 m-8 rounded-xl ">
       <h2 className="text-4xl font-semibold p-4">About Me__</h2>
       <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between ">
-        <div>
           <div>
             <img
-              src="https://i.ibb.co/KXrtLgT/1715428660634.jpg"
+              src="about.jpg"
               alt="picture of md atikuzzaman"
               className="md:max-w-[50%] rounded-xl shadow-lg shadow-orange-200"
             />
           </div>
-        </div>
         <div className="space-y-3">
           <h3 className="text-3xl font-semibold">Who am I?</h3>
           <p>
