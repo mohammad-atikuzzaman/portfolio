@@ -7,13 +7,13 @@ const Projects = () => {
   return (
     <div className="min-h-[calc(100vh-142px)] bg-orange-50 p-2 m-4 md:p-4 md:m-8 rounded-xl">
       <h2 className="text-3xl font-bold p-2">I have done the projects__</h2>
-      <div className="grid md:grid-cols-3 gap-6 justify-center">
+      <div className="grid md:grid-cols-3 gap-6 justify-center p-3 mt-6">
         <div>
           <div className="card bg-base-100 shadow-xl hover:scale-105 transition-all">
             <figure>
               <img src="./megaNews.png" alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-2">
               <h2 className="card-title">
                 Mega News
                 <div className="badge badge-secondary">NEW</div>
@@ -105,7 +105,7 @@ const Projects = () => {
             <figure>
               <img src="./VibePalace.png" alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-2">
               <h2 className="card-title">
                 Vibe Palace
                 <div className="badge badge-secondary">NEW</div>
@@ -197,7 +197,7 @@ const Projects = () => {
             <figure>
               <img src="./dreamVenture.png" alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-2">
               <h2 className="card-title">
                 Dream Venture
                 <div className="badge badge-secondary">NEW</div>

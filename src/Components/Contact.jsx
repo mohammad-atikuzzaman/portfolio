@@ -3,7 +3,9 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import {
   FaEnvelope,
+  FaFacebook,
   FaGithub,
+  FaLinkedin,
   FaLocationArrow,
   FaMobile,
 } from "react-icons/fa";
@@ -44,12 +46,12 @@ const Contact = () => {
   return (
     <div className="bg-orange-50 p-6 m-6 rounded-xl md:flex justify-between gap-8">
       <div className="mb-4 md:w-[20%]">
-        <h2 className="font-bold text-3xl">Contact with me__</h2>
+        <h2 className="font-bold md:text-3xl">Contact with me__</h2>
       </div>
       <div className="md:w-[80%]">
         <div>
           <h2 className="text-2xl font-semibold mb-3">Contact Info</h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             <div className="flex items-center gap-2">
               <FaMobile className="text-3xl"></FaMobile>
               <div>
@@ -57,6 +59,13 @@ const Contact = () => {
                 <a href="tel:+8801729414662" className="font-semibold">
                   +8801729414662
                 </a>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaLocationArrow className="text-3xl"></FaLocationArrow>
+              <div>
+                <p>Location_</p>
+                <h4 className="font-semibold">Pabna, Bangladesh</h4>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -71,25 +80,42 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <FaLocationArrow className="text-3xl"></FaLocationArrow>
-              <div>
-                <p>Location_</p>
-                <h4 className="font-semibold">Pabna, Bangladesh</h4>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
               <FaGithub className="text-3xl"></FaGithub>
               <div>
                 <p>Github_</p>
                 <a
                   href="https://github.com/mohammad-atikuzzaman"
                   className="font-semibold">
-                  https://github.com/mohammad-atikuzzaman
+                  mohammad-atikuzzaman
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaLinkedin className="text-3xl"></FaLinkedin>
+              <div>
+                <p>Linkedin</p>
+                <a
+                  href="https://www.linkedin.com/in/matikuzzaman/"
+                  className="font-semibold">
+                  matikuzzaman/
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaFacebook className="text-3xl"></FaFacebook>
+              <div>
+                <p>Facebook</p>
+                <a
+                  href="https://www.facebook.com/mohammadakash20"
+                  className="font-semibold">
+                 mohammadakash20
                 </a>
               </div>
             </div>
           </div>
         </div>
+        <br />
+        <hr className="bg-orange-900 border-orange-900" />
         <div>
           <h2 className="font-semibold text-2xl my-3">Send me Mail</h2>
           <form ref={form} onSubmit={sendEmail} className="space-y-3">
