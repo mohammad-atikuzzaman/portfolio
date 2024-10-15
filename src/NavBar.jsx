@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 border-2 border-[#9e6d52] rounded-full mt-4">
+    <div className="navbar py-0 bg-base-100 border-2 border-[#9e6d52] rounded-full mt-4">
       <div className="flex-1">
         <a className="text-xl font-semibold p-3">Atikuzzaman</a>
       </div>

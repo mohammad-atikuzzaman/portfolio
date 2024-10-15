@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import "./profile.css"
 const Home = () => {
   return (
-    <div className="min-h-[calc(100vh-130px)] flex items-center justify-center">
+    <div className="min-h-[calc(100vh-116px)] flex items-center justify-center">
       <div className="flex flex-col-reverse md:flex-row justify-between  items-center my-auto p-8">
         <div className="text-center mt-7 md:text-left md:max-w-[60%] space-y-2 ">
           <h2 className="font-bold text-2xl md:text-4xl">
