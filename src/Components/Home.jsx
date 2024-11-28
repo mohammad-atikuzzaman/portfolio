@@ -26,7 +26,7 @@ const Home = () => {
           </p>
           <div>
             <a
-              href="./Web_Developer_Resume_of_Atikuzzaman.pdf"
+              href="./Frontend_developer_Atikuzzaman's_resume .pdf"
               download
               className="inline-block bg-[#f8e9c1] p-2 rounded-md m-1 border-b-4 border-[#9e6d52] hover:scale-105 text-lg font-semibold">
               Resume
@@ -34,7 +34,7 @@ const Home = () => {
             <a
               href="./Frontend_Developer_CV_of_Md_Atikuzzaman.pdf"
               className="inline-block bg-[#f8e9c1] p-2 rounded-md m-1 border-b-4 border-[#9e6d52] hover:scale-105 text-lg font-semibold">
-              Cv
+             Download Cv
             </a>
           </div>
         </div>
