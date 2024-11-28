@@ -7,74 +7,86 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiMongodb, SiNextdotjs } from "react-icons/si";
+import {
+  SiExpress,
+  SiMongodb,
+  SiNextdotjs,
+  SiTypescript,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
     <div className="bg-orange-50 p-8 m-8 rounded-xl space-y-8 min-h-[calc(100vh-130px)]">
       <h2 className=" text-xl md:text-3xl font-bold">My Skills__</h2>
-      <hr />
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-        <div className="flex flex-col md:flex-row items-center justify-center text-[#ff6344] ">
-          <FaHtml5 className="text-xl md:text-7xl md:mr-4 animate-bounce"></FaHtml5>
+      <hr className="border-[#814516]" />
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16">
+        <div className="flex flex-col items-center justify-center text-[#ff6344] hover:text-gray-500">
+          <FaHtml5 className="text-xl md:text-5xl md:mr-4 animate-bounce"></FaHtml5>
           <div>
-            <h4 className="font-semibold md:text-lg">HTML</h4>
+            <h4 className="font-semibold md:text-4xl">HTML</h4>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center text-blue-600 ">
-          <FaCss3 className="text-xl md:text-7xl md:mr-4 animate-bounce"></FaCss3>
+        <div className="flex flex-col items-center justify-center text-blue-600 hover:text-gray-500 ">
+          <FaCss3 className="text-xl md:text-5xl animate-bounce"></FaCss3>
           <div>
-            <h4 className="font-semibold md:text-lg">CSS</h4>
+            <h4 className="font-semibold md:text-4xl">CSS</h4>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center text-yellow-500 ">
-          <BiLogoJavascript className="text-2xl md:text-7xl md:mr-4 animate-bounce"></BiLogoJavascript>
+        <div className="flex flex-col items-center justify-center text-blue-400 hover:text-gray-500">
+          <RiTailwindCssFill className="text-2xl md:text-5xl md:mr-4 animate-bounce"></RiTailwindCssFill>
           <div>
-            <h4 className="font-semibold md:text-lg">JavaScript</h4>
+            <h4 className="font-semibold md:text-4xl">Tailwind Css</h4>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center text-blue-400 ">
-          <RiTailwindCssFill className="text-2xl md:text-7xl md:mr-4 animate-bounce"></RiTailwindCssFill>
+        <div className="flex flex-col  items-center justify-center text-violet-700 hover:text-gray-500">
+          <FaBootstrap className="text-xl md:text-5xl md:mr-4 animate-bounce"></FaBootstrap>
           <div>
-            <h4 className="font-semibold md:text-lg">Tailwind Css</h4>
+            <h4 className="font-semibold md:text-4xl">BootStrap</h4>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center text-violet-700 ">
-          <FaBootstrap className="text-xl md:text-7xl md:mr-4 animate-bounce"></FaBootstrap>
+        <div className="flex flex-col  items-center justify-center text-yellow-500 hover:text-gray-500">
+          <BiLogoJavascript className="text-2xl md:text-5xl md:mr-4 animate-bounce"></BiLogoJavascript>
           <div>
-            <h4 className="font-semibold md:text-lg">BootStrap</h4>
+            <h4 className="font-semibold md:text-4xl">JavaScript</h4>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center text-blue-400 ">
-          <FaReact className="text-xl md:text-7xl md:mr-4 animate-bounce"></FaReact>
+        <div className="flex flex-col  items-center justify-center text-blue-700 hover:text-gray-500">
+          <SiTypescript className="text-2xl md:text-5xl md:mr-4 animate-bounce"></SiTypescript>
           <div>
-            <h4 className="font-semibold md:text-lg">React Js</h4>
-          </div>
-        </div>
-        <div className="flex flex-col md:flex-row items-center justify-center ">
-          <SiNextdotjs className="text-xl md:text-7xl md:mr-4 animate-bounce"></SiNextdotjs>
-          <div>
-            <h4 className="font-semibold md:text-lg">Next Js</h4>
+            <h4 className="font-semibold md:text-4xl">TypeScript</h4>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-center text-green-600 ">
-          <FaNodeJs className="text-xl md:text-7xl md:mr-4 animate-bounce"></FaNodeJs>
+        <div className="flex flex-col  items-center justify-center text-blue-400 hover:text-gray-500">
+          <FaReact className="text-xl md:text-5xl md:mr-4 animate-bounce"></FaReact>
           <div>
-            <h4 className="font-semibold md:text-lg">Node Js</h4>
+            <h4 className="font-semibold md:text-4xl">React Js</h4>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center hover:text-gray-500">
+          <SiNextdotjs className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiNextdotjs>
+          <div>
+            <h4 className="font-semibold md:text-4xl">Next Js</h4>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-center ">
-          <SiExpress className="text-xl md:text-7xl md:mr-4 animate-bounce"></SiExpress>
+        <div className="flex flex-col items-center justify-center text-green-600 hover:text-gray-500">
+          <FaNodeJs className="text-xl md:text-5xl md:mr-4 animate-bounce"></FaNodeJs>
           <div>
-            <h4 className="font-semibold md:text-lg">Express Js</h4>
+            <h4 className="font-semibold md:text-4xl">Node Js</h4>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center text-green-700 ">
-          <SiMongodb className="text-xl md:text-7xl md:mr-4 animate-bounce"></SiMongodb>
+
+        <div className="flex flex-col items-center justify-center hover:text-gray-500">
+          <SiExpress className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiExpress>
           <div>
-            <h4 className="font-semibold md:text-lg">MongoDB</h4>
+            <h4 className="font-semibold md:text-4xl">Express Js</h4>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center text-green-700 hover:text-gray-500">
+          <SiMongodb className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiMongodb>
+          <div>
+            <h4 className="font-semibold md:text-4xl">MongoDB</h4>
           </div>
         </div>
       </div>
