@@ -11,6 +11,7 @@ import {
   SiExpress,
   SiMongodb,
   SiNextdotjs,
+  SiSocketdotio,
   SiTypescript,
 } from "react-icons/si";
 
@@ -35,7 +36,7 @@ const Skills = () => {
         <div className="flex flex-col items-center justify-center text-blue-400 hover:text-gray-500">
           <RiTailwindCssFill className="text-2xl md:text-5xl md:mr-4 animate-bounce"></RiTailwindCssFill>
           <div>
-            <h4 className="font-semibold md:text-4xl">Tailwind Css</h4>
+            <h4 className="font-semibold md:text-4xl">Tailwind CSS</h4>
           </div>
         </div>
         <div className="flex flex-col  items-center justify-center text-violet-700 hover:text-gray-500">
@@ -60,33 +61,39 @@ const Skills = () => {
         <div className="flex flex-col  items-center justify-center text-blue-400 hover:text-gray-500">
           <FaReact className="text-xl md:text-5xl md:mr-4 animate-bounce"></FaReact>
           <div>
-            <h4 className="font-semibold md:text-4xl">React Js</h4>
+            <h4 className="font-semibold md:text-4xl">React JS</h4>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center hover:text-gray-500">
+        <div className="flex flex-col items-center justify-center text-black hover:text-gray-500">
           <SiNextdotjs className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiNextdotjs>
           <div>
-            <h4 className="font-semibold md:text-4xl">Next Js</h4>
+            <h4 className="font-semibold md:text-4xl">Next JS</h4>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center text-green-600 hover:text-gray-500">
           <FaNodeJs className="text-xl md:text-5xl md:mr-4 animate-bounce"></FaNodeJs>
           <div>
-            <h4 className="font-semibold md:text-4xl">Node Js</h4>
+            <h4 className="font-semibold md:text-4xl">Node JS</h4>
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center hover:text-gray-500">
           <SiExpress className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiExpress>
           <div>
-            <h4 className="font-semibold md:text-4xl">Express Js</h4>
+            <h4 className="font-semibold md:text-4xl">Express JS</h4>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center text-green-700 hover:text-gray-500">
           <SiMongodb className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiMongodb>
           <div>
             <h4 className="font-semibold md:text-4xl">MongoDB</h4>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center text-black hover:text-gray-500">
+          <SiSocketdotio className="text-xl md:text-5xl md:mr-4 animate-bounce"></SiSocketdotio>
+          <div>
+            <h4 className="font-semibold md:text-4xl">Socket.IO</h4>
           </div>
         </div>
       </div>
