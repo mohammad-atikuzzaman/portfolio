@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import "./nav.css";
 
 const NavBar = () => {
   return (
     <div className="navbar py-0 bg-base-100 border-2 border-[#9e6d52] rounded-full mt-4">
       <div className="flex-1">
-        <a className="text-xl font-semibold p-3">Atikuzzaman</a>
+        <a className="logo">Atikuzzaman</a>
       </div>
       <div className="hidden md:block flex-none">
         <ul className="menu menu-horizontal px-1">
@@ -13,7 +14,8 @@ const NavBar = () => {
               to={"/"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Home
             </NavLink>
           </li>
@@ -22,7 +24,8 @@ const NavBar = () => {
               to={"/about"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               About
             </NavLink>
           </li>
@@ -31,7 +34,8 @@ const NavBar = () => {
               to={"/contact"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Contact
             </NavLink>
           </li>
@@ -40,7 +44,8 @@ const NavBar = () => {
               to={"/skills"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Skills
             </NavLink>
           </li>
@@ -49,25 +54,33 @@ const NavBar = () => {
               to={"/projects"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Projects
             </NavLink>
           </li>
         </ul>
       </div>
+
       <div className="dropdown dropdown-end md:hidden">
-        <div tabIndex={0} role="button" className="btn m-1 rounded-full">
+        <div
+          tabIndex={0}
+          role="button"
+          className="px-3 py-2 font-semibold m-1 rounded-full shadow-md shadow-[#9c744e]"
+        >
           Menu
         </div>
         <ul
           tabIndex={0}
-          className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+          className="dropdown-content min-h-screen menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+        >
           <li>
             <NavLink
               to={"/"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Home
             </NavLink>
           </li>
@@ -76,7 +89,8 @@ const NavBar = () => {
               to={"/about"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               About
             </NavLink>
           </li>
@@ -85,7 +99,8 @@ const NavBar = () => {
               to={"/contact"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Contact
             </NavLink>
           </li>
@@ -94,7 +109,8 @@ const NavBar = () => {
               to={"/skills"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Skills
             </NavLink>
           </li>
@@ -103,7 +119,8 @@ const NavBar = () => {
               to={"/projects"}
               className={({ isActive }) =>
                 isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
-              }>
+              }
+            >
               Projects
             </NavLink>
           </li>
