@@ -10,7 +10,7 @@ const Home = () => {
           </h2>
           <h3 className="text-xl md:text-3xl font-semibold">
             <Typewriter
-              words={["Jr. Web Developer"]}
+              words={["Frontend Developer", "React Developer","Jr. Web Developer"]}
               loop={0}
               cursor
               cursorStyle="_"
@@ -20,8 +20,8 @@ const Home = () => {
             />
           </h3>
           <p>
-            Crafting dynamic, web applications with Html, CSS, javaScript,
-            React, and Node.js MongoDB, Express.js for seamless, efficient, and
+            Crafting dynamic, web applications with Html, CSS,Bootstrap, Tailwind CSS, JavaScript, TypeScript
+            React JS, Next JS and Node.JS MongoDB, Express.js for seamless, efficient, and
             innovative digital experiences.
           </p>
           <div>
@@ -34,7 +34,7 @@ const Home = () => {
             <a
               href="./Frontend_Developer_CV_of_Md_Atikuzzaman.pdf"
               className="inline-block bg-[#f8e9c1] p-2 rounded-md m-1 border-b-4 border-[#9e6d52] hover:scale-105 text-lg font-semibold">
-             Download Cv
+             Download CV
             </a>
           </div>
         </div>

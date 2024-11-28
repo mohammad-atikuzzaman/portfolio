@@ -1,17 +1,17 @@
 .profile {
-  background-color: rgb(230, 208, 181);
+  background-color: rgb(247, 209, 162);
   width: 300px;
   height: 300px;
   overflow: hidden;
   box-shadow: 0px 20px 10px 1px burlywood;
   background-size: cover;
   background-position: center;
-  animation: example 5s ease-in-out infinite ;
-  transition: all;
+  animation: example 5s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
 }
-.profile:hover{
-  background-color: bisque;
-  transition: all 2s ease-out;
+.profile:hover {
+  background-color: rgb(238, 198, 149);
+  scale: 105%;
 }
 @keyframes example {
   0% {
