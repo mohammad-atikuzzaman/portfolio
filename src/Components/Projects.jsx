@@ -14,13 +14,10 @@ const Projects = () => {
               <img src="./megaNews.png" alt="Shoes" />
             </figure>
             <div className="card-body p-2">
-              <h2 className="card-title">
+              <h2 className="card-title leading-3 mt-2">
                 Mega News
-                <div className="badge badge-secondary">NEW</div>
               </h2>
               <p>The trending article sharing platform.</p>
-              <div>
-                <h3 className="font-semibold mb-1">Used Technology's :</h3>
                 <div className="flex justify-around text-xl">
                   <FaReact className="text-blue-400" title="react js"></FaReact>
                   <FaNode className="text-green-700" title="node js"></FaNode>
@@ -72,7 +69,6 @@ const Projects = () => {
                     </svg>
                   </div>
                 </div>
-              </div>
               <div>
                 <h3 className="font-semibold">Features</h3>
                 <ul className="text-sm list-disc ml-4">
@@ -106,13 +102,10 @@ const Projects = () => {
               <img src="./VibePalace.png" alt="Shoes" />
             </figure>
             <div className="card-body p-2">
-              <h2 className="card-title">
+              <h2 className="card-title leading-3 mt-2">
                 Vibe Palace
-                <div className="badge badge-secondary">NEW</div>
               </h2>
               <p>The hotel booking platform</p>
-              <div>
-                <h3 className="font-semibold mb-1">Used Technology's :</h3>
                 <div className="flex justify-around text-xl">
                   <FaReact className="text-blue-400" title="react js"></FaReact>
                   <FaNode className="text-green-700" title="node js"></FaNode>
@@ -164,7 +157,6 @@ const Projects = () => {
                     </svg>
                   </div>
                 </div>
-              </div>
               <div>
                 <h3 className="font-semibold">Features</h3>
                 <ul className="text-sm list-disc ml-4">
@@ -198,13 +190,10 @@ const Projects = () => {
               <img src="./dreamVenture.png" alt="Shoes" />
             </figure>
             <div className="card-body p-2">
-              <h2 className="card-title">
+              <h2 className="card-title leading-3 mt-2">
                 Dream Venture
-                <div className="badge badge-secondary">NEW</div>
               </h2>
               <p>Share the knowledge of tourist spots</p>
-              <div>
-                <h3 className="font-semibold mb-1">Used Technology's :</h3>
                 <div className="flex justify-around text-xl">
                   <FaReact className="text-blue-400" title="react js"></FaReact>
                   <FaNode className="text-green-700" title="node js"></FaNode>
@@ -216,7 +205,6 @@ const Projects = () => {
                     className="text-yellow-600"
                     title="firebase"></RiFirebaseFill>
                 </div>
-              </div>
               <div>
                 <h3 className="font-semibold">Features</h3>
                 <ul className="text-sm list-disc ml-4">
