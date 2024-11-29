@@ -20,7 +20,7 @@ const Home = () => {
             />
           </h3>
           <p>
-            Crafting dynamic, web applications with Html, CSS,Bootstrap, Tailwind CSS, JavaScript, TypeScript
+            Crafting dynamic, web applications with HTML, CSS,Bootstrap, Tailwind CSS, JavaScript, TypeScript
             React JS, Next JS and Node.JS MongoDB, Express.js for seamless, efficient, and
             innovative digital experiences.
           </p>
