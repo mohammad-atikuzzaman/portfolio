@@ -51,7 +51,7 @@
 
 
 .shake {
-  animation: shake 1s infinite ease-in-out;
+  animation: shake 1.5s infinite ease-in-out;
 }
 
 @keyframes shake {
