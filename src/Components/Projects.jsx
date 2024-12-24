@@ -5,7 +5,7 @@ import { SiExpress } from "react-icons/si";
 
 const Projects = () => {
   return (
-    <div className="min-h-[calc(100vh-142px)] bg-orange-50 p-2 m-4 md:p-4 md:m-8 rounded-xl">
+    <div className="min-h-[calc(100vh-142px)] bg-[#0c0f13] p-2 m-4 md:p-4 md:m-8 rounded-xl">
       <h2 className="text-3xl font-bold p-2">I have done the projects__</h2>
       <div className="grid md:grid-cols-3 gap-6 justify-center p-3 mt-6">
         <div>
