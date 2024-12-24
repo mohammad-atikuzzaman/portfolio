@@ -127,7 +127,7 @@ const Contact = () => {
                   type="text"
                   name="from_name"
                   placeholder="Jhon Doe"
-                  className="w-full p-2 outline-[#793d10] text-[#793d10] font-semibold rounded-md"
+                  className="w-full p-2 outline-[#793d10] text-[#002B1E] font-semibold rounded-md"
                 />
               </div>
               <div>
@@ -137,13 +137,13 @@ const Contact = () => {
                   type="email"
                   name="from_email"
                   placeholder="test@text.com"
-                  className="w-full p-2 outline-[#793d10] text-[#793d10] font-semibold rounded-md"
+                  className="w-full p-2 outline-[#793d10] text-[#002B1E] font-semibold rounded-md"
                 />
               </div>
               <div>
                 <label htmlFor="message">Your Message</label>
                 <br />
-                <textarea name="message" className="w-full p-2 outline-[#793d10] text-[#793d10] font-semibold rounded-md"></textarea>
+                <textarea name="message" className="w-full p-2 outline-[#793d10] text-[#002B1E] font-semibold rounded-md"></textarea>
               </div>
               <input
                 type="submit"

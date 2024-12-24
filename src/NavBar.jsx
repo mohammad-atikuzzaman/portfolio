@@ -5,15 +5,15 @@ const NavBar = () => {
   return (
     <div className="navbar py-0 bg-base-100 border-2 border-[#9e6d52] rounded-full mt-4">
       <div className="flex-1">
-        <a className="logo">Atikuzzaman</a>
+        <a className="logo"> {"</"}Atikuzzaman{">"}</a>
       </div>
       <div className="hidden md:block flex-none">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 font-semibold">
           <li>
             <NavLink
               to={"/"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-black border-b-2 border-[#9b7f64]" : ""
               }
             >
               Home
