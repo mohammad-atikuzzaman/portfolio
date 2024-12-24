@@ -3,7 +3,7 @@ import "./nav.css";
 
 const NavBar = () => {
   return (
-    <div className="navbar py-0 bg-base-100 border-2 border-[#9e6d52] rounded-full mt-4">
+    <div className="navbar py-0 bg-base-100 border-2 border-[#a035e7] rounded-full mt-4">
       <div className="flex-1">
         <a className="logo"> {"</"}Atikuzzaman{">"}</a>
       </div>
@@ -13,7 +13,7 @@ const NavBar = () => {
             <NavLink
               to={"/"}
               className={({ isActive }) =>
-                isActive ? "font-black border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-black border-b-2 border-[#a035e7]" : ""
               }
             >
               Home
@@ -23,7 +23,7 @@ const NavBar = () => {
             <NavLink
               to={"/about"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               About
@@ -33,7 +33,7 @@ const NavBar = () => {
             <NavLink
               to={"/contact"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Contact
@@ -43,7 +43,7 @@ const NavBar = () => {
             <NavLink
               to={"/skills"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Skills
@@ -53,7 +53,7 @@ const NavBar = () => {
             <NavLink
               to={"/projects"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Projects
@@ -78,7 +78,7 @@ const NavBar = () => {
             <NavLink
               to={"/"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Home
@@ -88,7 +88,7 @@ const NavBar = () => {
             <NavLink
               to={"/about"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               About
@@ -98,7 +98,7 @@ const NavBar = () => {
             <NavLink
               to={"/contact"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Contact
@@ -108,7 +108,7 @@ const NavBar = () => {
             <NavLink
               to={"/skills"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Skills
@@ -118,7 +118,7 @@ const NavBar = () => {
             <NavLink
               to={"/projects"}
               className={({ isActive }) =>
-                isActive ? "font-semibold border-b-2 border-[#9b7f64]" : ""
+                isActive ? "font-semibold border-b-2 border-[#a035e7]" : ""
               }
             >
               Projects
