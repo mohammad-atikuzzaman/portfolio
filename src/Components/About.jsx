@@ -3,14 +3,14 @@ import Education from "./Education";
 const About = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="p-8 bg-orange-50 m-8 rounded-xl ">
+      <div className="p-8 bg-[#0c0f13] m-8 rounded-xl ">
         <h2 className="text-4xl font-semibold p-4">About Me__</h2>
         <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between ">
           <div>
             <img
               src="about.jpg"
               alt="picture of md atikuzzaman"
-              className="md:max-w-[50%] rounded-xl shadow-lg shadow-orange-200"
+              className="md:max-w-[50%] rounded-xl shadow-lg shadow-[#334467]"
             />
           </div>
           <div className="space-y-3">

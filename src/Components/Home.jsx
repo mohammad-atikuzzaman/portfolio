@@ -28,12 +28,12 @@ const Home = () => {
             <a
               href="./Frontend_developer_Atikuzzaman's_resume .pdf"
               download
-              className="inline-block bg-[#f8e9c1] p-2 rounded-md m-1 border-b-4 border-[#9e6d52] hover:scale-105 text-lg font-semibold">
+              className="inline-block bg-[#115335] p-2 rounded-md m-1 border-b-4 border-green-600 hover:scale-105 text-lg font-semibold">
               Resume
             </a>
             <a
               href="./Frontend_Developer_CV_of_Md_Atikuzzaman.pdf"
-              className="inline-block bg-[#f8e9c1] p-2 rounded-md m-1 border-b-4 border-[#9e6d52] hover:scale-105 text-lg font-semibold">
+              className="inline-block bg-[#115335] p-2 rounded-md m-1 border-b-4 border-green-600 hover:scale-105 text-lg font-semibold">
              Download CV
             </a>
           </div>

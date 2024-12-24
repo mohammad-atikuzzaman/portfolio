@@ -45,7 +45,7 @@ const Contact = () => {
   };
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="bg-orange-50 p-6 m-6 rounded-xl md:flex justify-between gap-8 w-full">
+      <div className="bg-[#0c0f13] p-6 m-6 rounded-xl md:flex justify-between gap-8 w-full">
         <div className="mb-4 md:w-[20%]">
           <h2 className="font-bold md:text-3xl">Contact with me__</h2>
         </div>
@@ -116,10 +116,10 @@ const Contact = () => {
             </div>
           </div>
           <br />
-          <hr className="bg-orange-900 border-orange-900" />
+          <hr className="bg-[#16A34A] border-[#186133]" />
           <div>
             <h2 className="font-semibold text-2xl my-3">Send me Mail</h2>
-            <form ref={form} onSubmit={sendEmail} className="space-y-3">
+            <form ref={form} onSubmit={sendEmail} className="space-y-3 text-[#16A34A]">
               <div>
                 <label htmlFor="from_name">Your Name</label>
                 <br />
@@ -127,7 +127,7 @@ const Contact = () => {
                   type="text"
                   name="from_name"
                   placeholder="Jhon Doe"
-                  className="w-full p-2 outline-[#793d10] text-[#002B1E] font-semibold rounded-md"
+                  className="w-full p-2 font-semibold rounded-md"
                 />
               </div>
               <div>
@@ -137,18 +137,18 @@ const Contact = () => {
                   type="email"
                   name="from_email"
                   placeholder="test@text.com"
-                  className="w-full p-2 outline-[#793d10] text-[#002B1E] font-semibold rounded-md"
+                  className="w-full p-2 font-semibold rounded-md"
                 />
               </div>
               <div>
                 <label htmlFor="message">Your Message</label>
                 <br />
-                <textarea name="message" className="w-full p-2 outline-[#793d10] text-[#002B1E] font-semibold rounded-md"></textarea>
+                <textarea name="message" placeholder="write here your message" className="w-full p-2 font-semibold rounded-md"></textarea>
               </div>
               <input
                 type="submit"
                 value="Send"
-                className="btn bg-[#522e12] w-full font-bold text-[#e7e3df]"
+                className="btn bg-[#125025] w-full font-bold border-b-[#35cc62] border-b-[3px] hover:bg-green-700 transition-all"
               />
             </form>
           </div>

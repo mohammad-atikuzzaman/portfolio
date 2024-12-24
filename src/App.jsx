@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="container mx-auto text-[#a035e7]">
+      <div className="container mx-auto text-green-600">
         <NavBar></NavBar>
         <Outlet></Outlet>
       </div>
